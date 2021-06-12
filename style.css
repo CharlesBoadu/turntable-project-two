@@ -7,3 +7,24 @@ body {
     justify-content: center;
 }
 
+h1 {
+    text-align: center; 
+    background-color: purple;
+    color: white; 
+    margin-top: 0px; 
+    height: 80px; 
+    padding-bottom: 30px;
+    padding-top: 20px
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    width: 120px; 
+    height:100px; 
+    padding-left: 10px; 
+    float: left;
+}
