@@ -1,24 +1,21 @@
 $(document).ready(function(){
 
-    $.ajax({
-        // http may be used instead of https if required
-        url: "https://sheetlabs.com/GENE/contactdetails",
-        crossDomain : true,
-        beforeSend: function(xhr, settings) {
-          xhr.setRequestHeader("Authorization","Basic "+btoa("charles.boadu@stu.ucc.edu.gh:t_32d874ee070e906ebe4e7c60080ff7c2"));
-        }
-      })
-
-      .done(function(data) {
-        $.each(data, function(key, value) {
+    $.get("https://sheetlabs.com/MENC/euros", 
+    function(data) {
+        data.forEach(d => {
             let td_11 = $("#td-11");
             $('#td-1').css('cursor', 'pointer');
 
             $("#td-1").click(function(){
-                if (value.name == "Charles") { 
-                    td_11.append("<h3>" +value.phonenumber+ "</h3>")
-                    td_11.append("<h3>" +value.residence+ "</h3>")
-                    td_11.append("<h3>" +value.university+ "</h3>")
+                if (d.__id == 1) { 
+                    td_11.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_11.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_11.append("<h4> Date: " +d.date+ "</h4>")
+                    td_11.append("<h4> Location: " +d.location+ "</h4>")
+                    td_11.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_11.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_11.append("<h4>Group: " +d.group+ "</h4>")
+                    td_11.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
 
@@ -26,10 +23,15 @@ $(document).ready(function(){
             $('#td-2').css('cursor', 'pointer');
 
             $("#td-2").click(function(){
-                if (value.name == "Emmanuel") { 
-                    td_22.append("<h3>" +value.phonenumber+ "</h3>")
-                    td_22.append("<h3>" +value.residence+ "</h3>")
-                    td_22.append("<h3>" +value.university+ "</h3>")
+                if (d.__id == 3) { 
+                    td_22.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_22.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_22.append("<h4> Date: " +d.date+ "</h4>")
+                    td_22.append("<h4> Location: " +d.location+ "</h4>")
+                    td_22.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_22.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_22.append("<h4>Group: " +d.group+ "</h4>")
+                    td_22.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
 
@@ -37,10 +39,15 @@ $(document).ready(function(){
             $('#td-3').css('cursor', 'pointer');
 
             $("#td-3").click(function(){
-                if (value.name == "Francisca") { 
-                    td_33.append("<h3>" +value.phonenumber+ "</h3>")
-                    td_33.append("<h3>" +value.residence+ "</h3>")
-                    td_33.append("<h3>" +value.university+ "</h3>")
+                if (d.__id == 5) { 
+                    td_33.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_33.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_33.append("<h4> Date: " +d.date+ "</h4>")
+                    td_33.append("<h4> Location: " +d.location+ "</h4>")
+                    td_33.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_33.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_33.append("<h4>Group: " +d.group+ "</h4>")
+                    td_33.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
 
@@ -48,10 +55,15 @@ $(document).ready(function(){
             $('#td-4').css('cursor', 'pointer');
 
             $("#td-4").click(function(){
-                if (value.name == "Frank") { 
-                    td_44.append("<h3>" +value.phonenumber+ "</h3>")
-                    td_44.append("<h3>" +value.residence+ "</h3>")
-                    td_44.append("<h3>" +value.university+ "</h3>")
+                if (d.__id == 7) { 
+                    td_44.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_44.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_44.append("<h4> Date: " +d.date+ "</h4>")
+                    td_44.append("<h4> Location: " +d.location+ "</h4>")
+                    td_44.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_44.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_44.append("<h4>Group: " +d.group+ "</h4>")
+                    td_44.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
 
@@ -59,12 +71,97 @@ $(document).ready(function(){
             $('#td-5').css('cursor', 'pointer');
 
             $("#td-5").click(function(){
-                if (value.name == "Desmond") { 
-                    td_55.append("<h3>" +value.phonenumber+ "</h3>")
-                    td_55.append("<h3>" +value.residence+ "</h3>")
-                    td_55.append("<h3>" +value.university+ "</h3>")
+                if (d.__id == 9) { 
+                    td_55.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_55.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_55.append("<h4> Date: " +d.date+ "</h4>")
+                    td_55.append("<h4> Location: " +d.location+ "</h4>")
+                    td_55.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_55.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_55.append("<h4>Group: " +d.group+ "</h4>")
+                    td_55.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
-        });
-      });
+
+            let td_66 = $("#td-66");
+            $('#td-6').css('cursor', 'pointer');
+
+            $("#td-6").click(function(){
+                if (d.__id == 11) { 
+                    td_66.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_66.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_66.append("<h4> Date: " +d.date+ "</h4>")
+                    td_66.append("<h4> Location: " +d.location+ "</h4>")
+                    td_66.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_66.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_66.append("<h4>Group: " +d.group+ "</h4>")
+                    td_66.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_77 = $("#td-77");
+            $('#td-7').css('cursor', 'pointer');
+
+            $("#td-7").click(function(){
+                if (d.__id == 13) { 
+                    td_77.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_77.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_77.append("<h4> Date: " +d.date+ "</h4>")
+                    td_77.append("<h4> Location: " +d.location+ "</h4>")
+                    td_77.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_77.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_77.append("<h4>Group: " +d.group+ "</h4>")
+                    td_77.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_88 = $("#td-88");
+            $('#td-8').css('cursor', 'pointer');
+
+            $("#td-8").click(function(){
+                if (d.__id == 15) { 
+                    td_88.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_88.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_88.append("<h4> Date: " +d.date+ "</h4>")
+                    td_88.append("<h4> Location: " +d.location+ "</h4>")
+                    td_88.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_88.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_88.append("<h4>Group: " +d.group+ "</h4>")
+                    td_88.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_99 = $("#td-99");
+            $('#td-9').css('cursor', 'pointer');
+
+            $("#td-9").click(function(){
+                if (d.__id == 17) { 
+                    td_99.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_99.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_99.append("<h4> Date: " +d.date+ "</h4>")
+                    td_99.append("<h4> Location: " +d.location+ "</h4>")
+                    td_99.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_99.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_99.append("<h4>Group: " +d.group+ "</h4>")
+                    td_99.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_110 = $("#td-110");
+            $('#td-10').css('cursor', 'pointer');
+
+            $("#td-10").click(function(){
+                if (d.__id == 19) { 
+                    td_110.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_110.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_110.append("<h4> Date: " +d.date+ "</h4>")
+                    td_110.append("<h4> Location: " +d.location+ "</h4>")
+                    td_110.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_110.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_110.append("<h4>Group: " +d.group+ "</h4>")
+                    td_110.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+        })
+    })
 });
