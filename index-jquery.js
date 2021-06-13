@@ -12,8 +12,6 @@ $(document).ready(function(){
                     td_11.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_11.append("<h4> Date: " +d.date+ "</h4>")
                     td_11.append("<h4> Location: " +d.location+ "</h4>")
-                    td_11.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_11.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_11.append("<h4>Group: " +d.group+ "</h4>")
                     td_11.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -28,8 +26,6 @@ $(document).ready(function(){
                     td_22.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_22.append("<h4> Date: " +d.date+ "</h4>")
                     td_22.append("<h4> Location: " +d.location+ "</h4>")
-                    td_22.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_22.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_22.append("<h4>Group: " +d.group+ "</h4>")
                     td_22.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -44,8 +40,6 @@ $(document).ready(function(){
                     td_33.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_33.append("<h4> Date: " +d.date+ "</h4>")
                     td_33.append("<h4> Location: " +d.location+ "</h4>")
-                    td_33.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_33.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_33.append("<h4>Group: " +d.group+ "</h4>")
                     td_33.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -60,8 +54,6 @@ $(document).ready(function(){
                     td_44.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_44.append("<h4> Date: " +d.date+ "</h4>")
                     td_44.append("<h4> Location: " +d.location+ "</h4>")
-                    td_44.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_44.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_44.append("<h4>Group: " +d.group+ "</h4>")
                     td_44.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -76,8 +68,6 @@ $(document).ready(function(){
                     td_55.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_55.append("<h4> Date: " +d.date+ "</h4>")
                     td_55.append("<h4> Location: " +d.location+ "</h4>")
-                    td_55.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_55.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_55.append("<h4>Group: " +d.group+ "</h4>")
                     td_55.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -92,8 +82,6 @@ $(document).ready(function(){
                     td_66.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_66.append("<h4> Date: " +d.date+ "</h4>")
                     td_66.append("<h4> Location: " +d.location+ "</h4>")
-                    td_66.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_66.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_66.append("<h4>Group: " +d.group+ "</h4>")
                     td_66.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -108,8 +96,6 @@ $(document).ready(function(){
                     td_77.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_77.append("<h4> Date: " +d.date+ "</h4>")
                     td_77.append("<h4> Location: " +d.location+ "</h4>")
-                    td_77.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_77.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_77.append("<h4>Group: " +d.group+ "</h4>")
                     td_77.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -124,8 +110,6 @@ $(document).ready(function(){
                     td_88.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_88.append("<h4> Date: " +d.date+ "</h4>")
                     td_88.append("<h4> Location: " +d.location+ "</h4>")
-                    td_88.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_88.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_88.append("<h4>Group: " +d.group+ "</h4>")
                     td_88.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -140,8 +124,6 @@ $(document).ready(function(){
                     td_99.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_99.append("<h4> Date: " +d.date+ "</h4>")
                     td_99.append("<h4> Location: " +d.location+ "</h4>")
-                    td_99.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_99.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_99.append("<h4>Group: " +d.group+ "</h4>")
                     td_99.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -156,8 +138,6 @@ $(document).ready(function(){
                     td_110.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_110.append("<h4> Date: " +d.date+ "</h4>")
                     td_110.append("<h4> Location: " +d.location+ "</h4>")
-                    td_110.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_110.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_110.append("<h4>Group: " +d.group+ "</h4>")
                     td_110.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -172,8 +152,6 @@ $(document).ready(function(){
                     td_111.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_111.append("<h4> Date: " +d.date+ "</h4>")
                     td_111.append("<h4> Location: " +d.location+ "</h4>")
-                    td_111.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_111.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_111.append("<h4>Group: " +d.group+ "</h4>")
                     td_111.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -188,8 +166,6 @@ $(document).ready(function(){
                     td_112.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_112.append("<h4> Date: " +d.date+ "</h4>")
                     td_112.append("<h4> Location: " +d.location+ "</h4>")
-                    td_112.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_112.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_112.append("<h4>Group: " +d.group+ "</h4>")
                     td_112.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -204,8 +180,6 @@ $(document).ready(function(){
                     td_113.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_113.append("<h4> Date: " +d.date+ "</h4>")
                     td_113.append("<h4> Location: " +d.location+ "</h4>")
-                    td_113.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_113.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_113.append("<h4>Group: " +d.group+ "</h4>")
                     td_113.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -220,8 +194,6 @@ $(document).ready(function(){
                     td_114.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_114.append("<h4> Date: " +d.date+ "</h4>")
                     td_114.append("<h4> Location: " +d.location+ "</h4>")
-                    td_114.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_114.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_114.append("<h4>Group: " +d.group+ "</h4>")
                     td_114.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -236,8 +208,6 @@ $(document).ready(function(){
                     td_115.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_115.append("<h4> Date: " +d.date+ "</h4>")
                     td_115.append("<h4> Location: " +d.location+ "</h4>")
-                    td_115.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_115.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_115.append("<h4>Group: " +d.group+ "</h4>")
                     td_115.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -252,8 +222,6 @@ $(document).ready(function(){
                     td_116.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_116.append("<h4> Date: " +d.date+ "</h4>")
                     td_116.append("<h4> Location: " +d.location+ "</h4>")
-                    td_116.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_116.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_116.append("<h4>Group: " +d.group+ "</h4>")
                     td_116.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -268,8 +236,6 @@ $(document).ready(function(){
                     td_117.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_117.append("<h4> Date: " +d.date+ "</h4>")
                     td_117.append("<h4> Location: " +d.location+ "</h4>")
-                    td_117.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_117.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_117.append("<h4>Group: " +d.group+ "</h4>")
                     td_117.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -284,8 +250,6 @@ $(document).ready(function(){
                     td_118.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_118.append("<h4> Date: " +d.date+ "</h4>")
                     td_118.append("<h4> Location: " +d.location+ "</h4>")
-                    td_118.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_118.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_118.append("<h4>Group: " +d.group+ "</h4>")
                     td_118.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -300,8 +264,6 @@ $(document).ready(function(){
                     td_119.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_119.append("<h4> Date: " +d.date+ "</h4>")
                     td_119.append("<h4> Location: " +d.location+ "</h4>")
-                    td_119.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_119.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_119.append("<h4>Group: " +d.group+ "</h4>")
                     td_119.append("<h4>Result: " +d.result+ "</h4>")
                 }
@@ -316,8 +278,6 @@ $(document).ready(function(){
                     td_220.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
                     td_220.append("<h4> Date: " +d.date+ "</h4>")
                     td_220.append("<h4> Location: " +d.location+ "</h4>")
-                    td_220.append("<h4> Home Team: " +d.hometeam+ "</h4>")
-                    td_220.append("<h4> Away Team: " +d.awayteam+ "</h4>")
                     td_220.append("<h4>Group: " +d.group+ "</h4>")
                     td_220.append("<h4>Result: " +d.result+ "</h4>")
                 }
