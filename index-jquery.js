@@ -162,6 +162,166 @@ $(document).ready(function(){
                     td_110.append("<h4>Result: " +d.result+ "</h4>")
                 }
             })
+
+            let td_111 = $("#td-111");
+            $('#td-11').css('cursor', 'pointer');
+
+            $("#td-11").click(function(){
+                if (d.__id == 21) { 
+                    td_111.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_111.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_111.append("<h4> Date: " +d.date+ "</h4>")
+                    td_111.append("<h4> Location: " +d.location+ "</h4>")
+                    td_111.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_111.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_111.append("<h4>Group: " +d.group+ "</h4>")
+                    td_111.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_112 = $("#td-112");
+            $('#td-12').css('cursor', 'pointer');
+
+            $("#td-12").click(function(){
+                if (d.__id == 23) { 
+                    td_112.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_112.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_112.append("<h4> Date: " +d.date+ "</h4>")
+                    td_112.append("<h4> Location: " +d.location+ "</h4>")
+                    td_112.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_112.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_112.append("<h4>Group: " +d.group+ "</h4>")
+                    td_112.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_113 = $("#td-113");
+            $('#td-13').css('cursor', 'pointer');
+
+            $("#td-13").click(function(){
+                if (d.__id == 25) { 
+                    td_113.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_113.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_113.append("<h4> Date: " +d.date+ "</h4>")
+                    td_113.append("<h4> Location: " +d.location+ "</h4>")
+                    td_113.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_113.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_113.append("<h4>Group: " +d.group+ "</h4>")
+                    td_113.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_114 = $("#td-114");
+            $('#td-14').css('cursor', 'pointer');
+
+            $("#td-14").click(function(){
+                if (d.__id == 27) { 
+                    td_114.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_114.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_114.append("<h4> Date: " +d.date+ "</h4>")
+                    td_114.append("<h4> Location: " +d.location+ "</h4>")
+                    td_114.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_114.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_114.append("<h4>Group: " +d.group+ "</h4>")
+                    td_114.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_115 = $("#td-115");
+            $('#td-15').css('cursor', 'pointer');
+
+            $("#td-15").click(function(){
+                if (d.__id == 29) { 
+                    td_115.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_115.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_115.append("<h4> Date: " +d.date+ "</h4>")
+                    td_115.append("<h4> Location: " +d.location+ "</h4>")
+                    td_115.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_115.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_115.append("<h4>Group: " +d.group+ "</h4>")
+                    td_115.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_116 = $("#td-116");
+            $('#td-16').css('cursor', 'pointer');
+
+            $("#td-16").click(function(){
+                if (d.__id == 31) { 
+                    td_116.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_116.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_116.append("<h4> Date: " +d.date+ "</h4>")
+                    td_116.append("<h4> Location: " +d.location+ "</h4>")
+                    td_116.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_116.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_116.append("<h4>Group: " +d.group+ "</h4>")
+                    td_116.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_117 = $("#td-117");
+            $('#td-17').css('cursor', 'pointer');
+
+            $("#td-17").click(function(){
+                if (d.__id == 33) { 
+                    td_117.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_117.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_117.append("<h4> Date: " +d.date+ "</h4>")
+                    td_117.append("<h4> Location: " +d.location+ "</h4>")
+                    td_117.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_117.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_117.append("<h4>Group: " +d.group+ "</h4>")
+                    td_117.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_118 = $("#td-118");
+            $('#td-18').css('cursor', 'pointer');
+
+            $("#td-18").click(function(){
+                if (d.__id == 35) { 
+                    td_118.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_118.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_118.append("<h4> Date: " +d.date+ "</h4>")
+                    td_118.append("<h4> Location: " +d.location+ "</h4>")
+                    td_118.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_118.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_118.append("<h4>Group: " +d.group+ "</h4>")
+                    td_118.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_119 = $("#td-119");
+            $('#td-19').css('cursor', 'pointer');
+
+            $("#td-19").click(function(){
+                if (d.__id == 37) { 
+                    td_119.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_119.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_119.append("<h4> Date: " +d.date+ "</h4>")
+                    td_119.append("<h4> Location: " +d.location+ "</h4>")
+                    td_119.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_119.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_119.append("<h4>Group: " +d.group+ "</h4>")
+                    td_119.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
+
+            let td_220 = $("#td-220");
+            $('#td-20').css('cursor', 'pointer');
+
+            $("#td-20").click(function(){
+                if (d.__id == 39) { 
+                    td_220.append("<h4> Match Number: " +d.matchnumber+ "</h4>")
+                    td_220.append("<h4> Round Number: " +d.roundnumber+ "</h4>")
+                    td_220.append("<h4> Date: " +d.date+ "</h4>")
+                    td_220.append("<h4> Location: " +d.location+ "</h4>")
+                    td_220.append("<h4> Home Team: " +d.hometeam+ "</h4>")
+                    td_220.append("<h4> Away Team: " +d.awayteam+ "</h4>")
+                    td_220.append("<h4>Group: " +d.group+ "</h4>")
+                    td_220.append("<h4>Result: " +d.result+ "</h4>")
+                }
+            })
         })
     })
 });
