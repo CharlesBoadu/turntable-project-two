@@ -5,10 +5,8 @@ $(document).ready(function(){
     $.get("https://sheetlabs.com/MENC/euros", 
     function(data) {
         
-       handleClickEvent = function (id) {
+       handleClickEvent = function (id) { 
 
-        window.location.reload(); 
-        
            for (d in data) {
 
             
@@ -23,6 +21,10 @@ $(document).ready(function(){
                           
         }
         }
+    }
+
+    reloadPage = function () {
+        window.location.reload();
     }
     
 })
